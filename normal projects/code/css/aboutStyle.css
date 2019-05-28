@@ -1,0 +1,157 @@
+/* Navigation Section */
+    #navigation{
+        margin: 30px 0;
+        background: #F2F2F2;
+        padding: 11px 0;
+    }
+    #navigation p{
+        font-family: visby-demibold;
+        color: #0086cd;
+        font-size: 13px;
+        letter-spacing: .2px;    
+    }
+    #navigation p a{
+        color: #878787;        
+    }
+/* Content Section */
+    #content{
+        margin-bottom: 70px;
+    }
+    /* Side Navigation Section */
+        .sideNav{
+            position: sticky;
+            top: 10px;
+            font-family: visby-bold;
+            font-size: 16px;
+            color: #333333;        
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 3px 5px 17px 0 rgba(0, 0, 0, 0.14);        
+        }
+        .active{
+            border-bottom: 1px solid lightgray;
+        }
+        .sideNav li{
+            margin-bottom: 40px;
+        }
+        .subAbout{
+            margin-left: 25px;
+        }
+        .sideNav a:hover{
+            border-bottom: 1px solid lightgray;        
+        }
+    /* Main Content Section */
+        .contentImgFrame{
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .mainContent h1{
+            color: #333333;
+            font-size: 28px;
+            font-family: visby-extrabold;
+            margin-bottom: 15px;
+        }
+        .mainContent p{
+            font-family: visby-light;
+            line-height: 22px;
+            font-size: 15px;
+            color: #6f6f6f;            
+        }
+    /* Side Info Section */
+        .sideInfo{
+            box-shadow: 3px 5px 17px 0 rgba(0, 0, 0, 0.14);   
+            padding: 20px;
+            border-radius: 10px;    
+            text-align: center; 
+        }
+        .quotes{
+            color: #cecece;
+            font-size: 29px;
+            text-align: left;
+        }
+        .quotes .col-12{
+            margin: 10px 0 0 0;
+        }
+        .sideInfo h1{
+            font-family: visby-light;
+            color: #cecece;
+            font-size: 19px;
+            text-align: left;        
+        }
+        .sideInfoImg{
+            position: relative;
+            height: 112px;
+            left: 60px;
+        }
+        .sideInfoImgFrame{
+            height: 112px;
+            width: 112px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: relative;
+            z-index: 5;
+        }
+        .line1{
+            position: absolute;
+            bottom: 30px;
+            left: -24px;
+            width: 89px;
+            height: 11px;
+            border-radius: 3px;
+            background: linear-gradient( to right, #0086cd 17%, #f0812b 32%, #ffc90a 100%);
+        }
+        .line2{
+            position: absolute;
+            bottom: -6px;
+            left: -10px;
+            z-index: 10;
+            width: 52px;
+            height: 11px;
+            border-radius: 3px;
+            background-image: -webkit-linear-gradient( 0deg, #00a65a 20%, #0086cd 99%, #873996 37%);
+        }
+        .line3{
+            position: absolute;
+            bottom: 10px;
+            left: 60px;
+            z-index: 10;
+            width: 70px;
+            height: 11px;
+            border-radius: 3px;
+            background-image: -webkit-linear-gradient( 0deg, #873996 6%, #EC381C 56%, #f0812b 82%, #ffc90a 100%); 
+        }
+        .sideInfo h3{
+            color: #333333;
+            font-size: 17px;
+            font-family: visby-extrabold;        
+            margin-top: 25px;
+        }
+        .sideInfo p{
+            font-family: visby-demibold;        
+            color: #878787;
+            font-size: 13px;
+            line-height: 20px;
+            margin-top: 15px;
+        }
+        .sideInfo .text{
+            font-family: visby-light;
+            margin: 0;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        .sideInfoDots li{
+            display: inline-block;
+            margin: 10px 2px;
+        }
+        .sideInfoDot{
+            z-index: 10;
+            background: #e2e2e2;
+            border-radius: 50%;
+            display: block;
+            height: 13px;
+            width: 13px;
+        }
+        .activedot{
+            background: #9e9e9e;
+        }

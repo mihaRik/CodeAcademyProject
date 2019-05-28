@@ -1,0 +1,141 @@
+/* Contact Info Section */
+    #contactInfo{
+        margin: 70px 0;
+    }
+    #contactInfo h1{
+        font-family: visby-extrabold;
+        color: #141414;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .contactInfo{
+        margin-bottom: 70px;
+    }
+    .contactInfo li{
+        margin-bottom: 25px;
+        color: #6f6f6f;
+        font-size: 17px;
+        font-family: visby-light;
+    }
+    .contactInfo li i{
+        font-size: 25px;
+        float: left;
+        margin-right: 10px;
+        color: #000000;
+    }
+    .contactInfo li a{
+        color: #6f6f6f;
+    }
+    #contactInfo p{
+        font-family: visby-light;
+        color: #6f6f6f;
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    .burada{
+        color: #000000;
+        font-family: visby-extrabold;
+    }
+    .contactsocial li{
+        display: inline-block;
+        margin: 0 5px;
+        font-size: 25px;
+    }
+    .fa-facebook-f{
+        padding: 12px 19px;
+        border: 1px solid #3e5b98;
+        border-radius: 50%;
+        color: #3e5b98;
+        transition: all .2s ease-in;
+    }
+    .fa-instagram{
+        padding: 12px 15px;
+        border: 1px solid #9a55c3;
+        border-radius: 50%;
+        color: #9a55c3;
+        transition: all .2s ease-in;
+    }
+    .fa-twitter{
+        padding: 12px 13px;
+        border: 1px solid #4da7de;
+        border-radius: 50%;
+        color: #4da7de;
+        transition: all .2s ease-in;
+    }
+    .fa-linkedin-in{
+        padding: 12px 15px;
+        border: 1px solid #3371b7;
+        border-radius: 50%;
+        color: #3371b7;
+        transition: all .2s ease-in;
+    }
+    .fa-facebook-f:hover{
+        background: #3e5b98;
+        color: #ffffff;
+    }
+    .fa-instagram:hover{
+        background: #9a55c3;
+        color: #ffffff;
+    }
+    .fa-twitter:hover{
+        background: #4da7de;
+        color: #ffffff;
+    }
+    .fa-linkedin-in:hover{
+        background: #3371b7;
+        color: #ffffff;
+    }
+/* Contact Input Section */
+    .contactInput{
+        box-shadow: 3px 5px 17px 0 rgba(0, 0, 0, 0.14);
+        border-radius: 8px;
+    }
+    .contactInput{
+        background: #ffffff;
+        padding: 20px;
+        text-align: left;
+        border-radius: 8px;
+        padding-bottom: 50px;
+    }
+    .contactInput .col-6{
+        position: relative;        
+    }
+
+    .contactInput input{
+        padding: 10px 0;
+        margin-bottom: 30px;
+        width: 90%;
+        font-size: 19px;
+        font-family: visby-light;
+        border: none;
+        border-bottom: 3px solid #dddddd;
+        transition: all .2s ease-in;
+        outline: none;
+    }
+    .underline{
+        height: 3px;
+        width: 0px;
+        transition: all .2s ease-in;
+        background: #ec3824;
+        position: absolute;
+        bottom: 0;
+    }
+    .contactInput input:focus .underline{
+        width: 100px;
+        z-index: 10;
+    }
+    .contactInput input:hover{
+        padding-left: 10px;
+        background: #f2f2f2;
+        width: calc(90% - 10px);
+    }
+    .contactInput input:focus{
+        padding-left: 10px;
+        background: #f2f2f2;
+        width: calc(90% - 10px);
+        border-bottom: 3px solid #ec3824;        
+    }
+/* Map Section */
+#map{
+    margin-bottom: 110px;
+}

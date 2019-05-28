@@ -1,0 +1,115 @@
+/* Short Info Section */
+    #shortinfo{
+        background: #ec3824;
+        color: #ffffff;
+    }
+    .pdf{
+        color: #ffffff;
+        background: #c02d1d;
+    }
+    .schedule p{
+        color: #ffffff;
+    }
+    .shortFrame{
+        width: 100px;
+        bottom: -13px;
+        right: 70px;
+    }
+    .download button{
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+/* Main Content Section */
+    /* Invite Section */
+        .invite{
+            height: 392px;
+        }
+        .invite .col-6:first-of-type{
+            margin: 0;
+            padding: 20px;
+        }
+        .inviteFrame{
+            width: 459px;
+            height: 392px;
+        }
+        .inviteFrame img{
+            height: 100%;
+        }
+    /* Aim Section */
+        .aimFrame{
+            width: 311px;
+        }
+        .aim img{
+            position: relative;
+            left: -110px;
+            top: 110px;
+        }
+        .aim h2{
+            color: #333333;
+            font-size: 28px;
+            font-family: visby-extrabold;
+            margin-bottom: 50px;
+        }
+        .aim p{
+            margin-bottom: 20px;
+            color: #333333;
+            font-size: 16px;
+            font-family: visby-medium;     
+        }
+    /* Sertificate Section */
+        .sertificate{
+            margin-top: 200px;
+        }
+        .sertFrame{
+            width: 169px;
+            top: -35px;
+            left: -20px;   
+        }
+    /* Programm Section */
+        .programm ul{
+            float: left;
+            line-height: 40px;
+        }
+        .programm ul li{
+            margin: 0;
+        }
+        [class^="programHeader"]{
+            width: 45%;
+        }
+        .microsoft{
+            padding: 20px;
+            color: #ffffff;
+            background: #0076da;
+        }
+        .programInfo{
+            width: 55%;
+            background: #f3f3f3;
+        }
+        .programHeaderword li{
+            background: #2c5ca5;
+            padding: 155px 20px;
+        }
+        .programHeaderexcel li{
+            background: #00a457;
+            padding: 155px 20px;
+        }
+        .programHeaderpowerpoint li{
+            background: #d2461c;
+            padding: 75px 20px;
+        }
+        .programHeaderoutlook li{
+            background: #2173b8;
+            padding: 135px 20px;
+        }
+        .programInfo li{
+        background: #f3f3f3;
+        color: #6f6f6f;
+        }
+    /* Work Section */
+        .blue{
+            background: #00a65a!important;
+            color: #ffffff!important;
+        }
+        .work i{
+            cursor: pointer;
+        }

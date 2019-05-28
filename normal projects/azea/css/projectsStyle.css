@@ -1,0 +1,311 @@
+/*  Topbar Section */
+    .bgTopBar{
+        background: url(../img/projectBg.jpg) center 0;
+        background-size: cover;
+    }   
+    #topBar{
+        background: rgba(0,0,0,.2);
+    }
+    .adress li{
+        display: inline-block;
+        margin: 4px 0;
+        margin-right: 30px;
+    }
+    .adress li i{
+        padding-left: 10px;
+        color: #FFD200;
+        transform: rotateY(-180deg);
+    }
+    .lang select{
+        width: 100px;
+        background: transparent;
+        color: #ffffff;
+        border: 1px solid rgba(255,255,255,.3);
+        padding: 1px;
+        transition: .3s;
+    }
+    .lang select:hover{
+        background: rgba(255,255,255,.1)
+    }
+    .lang select option{
+        color: #222327;
+        background: rgba(0,0,0,.2);
+        /* background: transparent; */
+    }
+    .socialBar{
+        text-align: right;
+    }
+    .socialBar li{
+        display: inline-block;
+        margin: 3px 10px;
+    }
+    .socialBar li a:hover{
+        color: #FFD200;
+    }
+/* Header Section */
+    header{
+        background: rgba(50,50,50,.95);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .logoImgFrame{
+        width: 144px;
+    }
+    header .col-10{
+        text-align: right;
+    }
+    header li{
+        padding: 22px 0;
+        display: inline-block;
+    }
+    header li a{
+        padding: 0 20px;
+        transition: all .3s;
+    }
+    header li a:hover{
+        color: #FFD200;
+    }
+    .subMenu{
+        position: relative;
+    }
+    .subMenu:hover .subMenuItems{
+        visibility: visible;
+        opacity: 1;
+        
+    }
+    .subMenuItems{
+        text-align: left;
+        width: 210px;
+        position: absolute;
+        top: 58px;
+        left: 15px;
+        visibility: hidden;
+        transition: all .3s;
+        opacity: 0;
+    }
+    .subMenuItems li{
+        background: #222327;
+        display: block;
+        padding: 15px;
+        border-bottom: solid 1px #333;
+        transition: all .3s;
+    }
+    .subMenuItems li a{
+        padding: 0;
+        color: #ccc;
+    }
+    .subMenuItems li:hover{
+        background: #FFD200;
+    }
+    .subMenuItems li:hover a{
+    color: #222327;
+    }
+/* Slider Section */
+    #slider{
+        height: 200px;
+        text-align: center;
+    }
+    #slider h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 30px;
+        color: #eceff3;       
+    }
+    #slider .line{
+        width: 100%;
+        height: 1px;
+        background: rgba(255,255,255,.1);
+        position: relative;
+        margin: 30px 0; 
+    }
+    .lineYellow{
+        position: absolute;
+        top: 0;
+        left: 540px;
+        background: #FFD200;
+        height: 2px;
+        width: 100px;
+    }
+    #slider p{
+        font-size: 12px;
+    }
+    #slider p i{
+        padding: 0 10px;
+    }
+    #slider a{
+        color: #FFD200;
+        transition: all .3s;
+    }
+    #slider a:hover{
+        color: #ffffff;
+    }
+/* Content Section */
+    #content{
+    margin: 30px 0;
+    }
+    .imgFrame{
+        position: relative;
+        overflow: hidden;
+        height: 236px;
+    }
+    .imgFrame img{
+        transition: all .3s linear;
+    }
+    .imgFrame .overlay{
+        position: absolute;
+        top: 0;
+        background: #111;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all .3s;
+    }
+    .imgFrame:hover .overlay{
+        opacity: 0.9;
+    }
+    .imgFrame:hover img{
+        transform: scale(1.12);
+    }
+    .overlay a{
+        color: #FFD200;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        position: absolute;
+        top: 110px;
+        left: 110px;
+    }
+/* Elaqe Section */
+    #elaqe{
+        background: #FFD200;
+    }
+    #elaqe h2{
+    color: #222222;   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+    }
+    #elaqe a{
+        border: solid 2px #111;
+        padding: 10px 30px;
+        position: relative;
+        overflow: hidden;
+    }
+    #elaqe a p{
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #111;
+        display: inline-block;
+        overflow: hidden;
+        transition: all .3s;
+        z-index: 2;
+        position: relative;
+        top: 3px;
+        left: 0;
+    }
+    #elaqe .col-3{
+        margin: 19px 0;
+        text-align: right;
+    }
+    #elaqe .sliderButton{
+        overflow: hidden;
+        padding-top: 11px;
+        height: 30px;
+    }
+    #elaqe .slider{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #000000;
+        transition: all .3s;
+    }
+    #elaqe a i{
+        color: #111;
+        position: absolute;
+        top: 12px;
+        right: -20px;
+        transition: all .3s;
+        z-index: 2;
+    }
+    #elaqe a:hover p{
+        color: #ffffff;
+        left: -10px;
+    }
+    #elaqe a:hover i{
+        color: #ffffff;
+        right: 20px;
+    }
+    #elaqe a:hover .slider{
+        width: 100%;
+    }
+/* Footer Section */
+    footer{
+        background: #222222;
+        padding-top: 50px;
+    }
+    footer .logoImgFrame{
+        margin-bottom: 20px;
+    }
+    footer p{
+        padding-right: 30px;
+        color: #cccccc;    
+        line-height: 23px;
+    }
+    footer h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 20px;    
+    }
+    footer .map{
+        width: 360px;
+        height: 215px;
+    }
+    footer .col-4{
+        position: relative;
+    }
+    .spans{
+        display:inline-block;
+    }
+    .spansInfo{
+        display: inline-block;
+        position: absolute;
+        color: #cccccc;
+    }
+    footer a{
+        color: #555555;
+        transition: all .3s;
+    }
+    footer a:hover{
+        color: #393939;
+        text-decoration: underline;
+    }
+    footer .spans li{
+        padding: 14px 0;
+        border-bottom: 1px solid #393939;
+    }
+    footer .spansInfo li{
+        padding: 14px 0;
+        border-bottom: 1px solid #393939;
+    }
+    .spans span{
+        font-weight: bold;
+        color: #FFD200;
+        padding-right: 10px;
+    }
+    footer .socialBar{
+        padding-right: 40px;
+    }
+    footer .socialBar a{
+        color: #ffffff;
+    }
+    footer .container-fluid{
+        background: #242424;
+        padding: 30px 0;
+    }

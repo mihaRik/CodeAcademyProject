@@ -1,0 +1,41 @@
+/* Main Content Section */
+    .mainContent .col-6{
+        position: relative;
+        height: 270px;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .mainContent img{
+        position: absolute;
+        top: 0;
+        z-index: 5;
+        transition: all .5s ease-in-out;
+    }
+    .mainContent img:last-of-type{
+        opacity: 0;
+    }
+    .mainContent .col-6:hover img:last-of-type{
+        opacity: 1;
+    }
+    .ceoInfo{
+        position: absolute;
+        bottom: 0;
+        z-index: 10;
+        background: linear-gradient(to top, black 0, transparent);
+        width: 100%;
+        text-align: center;
+    }
+    .mainContent h1{
+        color: #ffffff;
+        font-size: 16px;
+        font-family: visby-extrabold;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .mainContent p{
+        color: #ffffff;
+        font-size: 12px;
+        font-family: visby-light;
+        margin-bottom: 20px;
+    }

@@ -1,0 +1,773 @@
+/*  Topbar Section */
+    .bgTopBar{
+        background: url(../img/sliderBg.jpg) center;
+        background-size: cover;
+    }
+    #topBar{
+        background: rgba(0,0,0,.2);
+    }
+    .adress li{
+        display: inline-block;
+        margin: 4px 0;
+        margin-right: 30px;
+    }
+    .adress li i{
+        padding-left: 10px;
+        color: #FFD200;
+        transform: rotateY(-180deg);
+    }
+    .lang select{
+        width: 100px;
+        background: transparent;
+        color: #ffffff;
+        border: 1px solid rgba(255,255,255,.3);
+        padding: 1px;
+        transition: .3s;
+    }
+    .lang select:hover{
+        background: rgba(255,255,255,.1)
+    }
+    .lang select option{
+        color: #222327;
+        background: rgba(0,0,0,.2);
+        /* background: transparent; */
+    }
+    .socialBar{
+        text-align: right;
+    }
+    .socialBar li{
+        display: inline-block;
+        margin: 3px 10px;
+    }
+    .socialBar li a:hover{
+        color: #FFD200;
+    }
+/* Header Section */
+    header{
+        background: rgba(50,50,50,.95);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .logoImgFrame{
+        width: 144px;
+    }
+    header .col-10{
+        text-align: right;
+    }
+    header li{
+        padding: 22px 0;
+        display: inline-block;
+    }
+    header li a{
+        padding: 0 20px;
+        transition: all .3s;
+    }
+    header li a:hover{
+        color: #FFD200;
+    }
+    .subMenu{
+        position: relative;
+    }
+    .subMenu:hover .subMenuItems{
+        visibility: visible;
+        opacity: 1;
+        
+    }
+    .subMenuItems{
+        text-align: left;
+        width: 210px;
+        position: absolute;
+        top: 58px;
+        left: 15px;
+        visibility: hidden;
+        transition: all .3s;
+        opacity: 0;
+    }
+    .subMenuItems li{
+        background: #222327;
+        display: block;
+        padding: 15px;
+        border-bottom: solid 1px #333;
+        transition: all .3s;
+    }
+    .subMenuItems li a{
+        padding: 0;
+        color: #ccc;
+    }
+    .subMenuItems li:hover{
+        background: #FFD200;
+    }
+    .subMenuItems li:hover a{
+       color: #222327;
+    }
+/* Slider Section */
+    #slider{
+        height: 670px;
+    }
+    #slider:hover [class$=Arrow]{
+        opacity: 1;
+    }
+    #slider .row{
+        padding-top: 200px;
+    }
+    #slider [class$=Arrow]{
+        width: 40px;
+        height: 40px;
+        background: rgba(0, 0, 0, 0.5);
+        margin: 10px;
+        margin-top: 100px;
+        transition: all .3s;
+        opacity: 0;
+    }
+    #slider [class$=Arrow]:hover{
+        background: #000000;
+    }
+    #slider [class$=Arrow] i{
+        padding: 14px;
+    }
+    #slider h1{
+        font-family: giger;
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 10px;
+    }
+    #slider p{
+        margin-bottom: 50px;
+    }
+    #slider span{
+        color: #FFD200;
+    }
+    #slider a{
+        padding: 10px 30px;
+        border: 2px solid #FFD200;
+        border-radius: 15px;
+        transition: all .3s;
+    }
+    #slider a i{
+        margin-left: 15px;
+    }
+    #slider a:hover{
+        border: 2px solid #ffffff;
+        color: #FFD200;
+    }
+/* Elaqe Section */
+    #elaqe{
+        background: #FFD200;
+    }
+    #elaqe h2{
+    color: #222222;   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+    }
+    #elaqe a{
+        border: solid 2px #111;
+        padding: 10px 30px;
+        position: relative;
+        overflow: hidden;
+    }
+    #elaqe a p{
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #111;
+        display: inline-block;
+        overflow: hidden;
+        transition: all .3s;
+        z-index: 2;
+        position: relative;
+        top: 3px;
+        left: 0;
+    }
+    #elaqe .col-3{
+        margin: 19px 0;
+        text-align: right;
+    }
+    #elaqe .sliderButton{
+        overflow: hidden;
+        padding-top: 11px;
+        height: 30px;
+    }
+    #elaqe .slider{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #000000;
+        transition: all .3s;
+    }
+    #elaqe a i{
+        color: #111;
+        position: absolute;
+        top: 12px;
+        right: -20px;
+        transition: all .3s;
+        z-index: 2;
+    }
+    #elaqe a:hover p{
+        color: #ffffff;
+        left: -10px;
+    }
+    #elaqe a:hover i{
+        color: #ffffff;
+        right: 20px;
+    }
+    #elaqe a:hover .slider{
+        width: 100%;
+    }
+/* About Section */
+    #about{
+        background: url(../img/aboutBg.jpg) 0% 0%;
+        background-size: cover;
+    }
+    #about .container{
+        padding-top: 50px;
+    }
+    #about .overlay{
+        background: rgba(0,0,0,.7);
+        padding-bottom: 50px;
+    }
+    #about h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;  
+        font-weight: 700;
+        margin-bottom: 10px;  
+    }
+    #about .line{
+        height: 3px;
+        width: 50px;
+        background: #FFD200;
+    }
+    .aboutText{
+        color: #dddddd;
+        line-height: 25px;    
+    }
+    .aboutBut .col-5{
+        text-align: right;
+    }
+    .aboutBut a{
+        border: solid 2px #dddddd;
+        padding: 10px 30px;
+        position: relative;
+        overflow: hidden;
+    }
+    .aboutBut a p{
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #ffffff;
+        display: inline-block;
+        overflow: hidden;
+        transition: all .3s;
+        z-index: 2;
+        position: relative;
+        top: 3px;
+        left: 0;
+    }
+    .aboutBut .sliderButton{
+        overflow: hidden;
+        padding-top: 11px;
+        height: 30px;
+    }
+    .aboutBut .slider{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #ffffff;
+        transition: all .3s;
+    }
+    .aboutBut a i{
+        color: #ffffff;
+        position: absolute;
+        font-size: 16px;
+        top: 10px;
+        right: -20px;
+        transition: all .3s;
+        z-index: 2;
+    }
+    .aboutBut a:hover p{
+        color: #111;
+        left: -10px;
+    }
+    .aboutBut a:hover i{
+        color: #111;
+        right: 20px;
+    }
+    .aboutBut a:hover .slider{
+        width: 100%;
+    }
+    .video{
+        text-align: center;
+        height: 355px;
+        overflow: hidden;
+        position: relative;
+    }
+    .video img{
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .3s;
+    }
+    .videoOverlay{
+        width: 100%;
+        height: 100%;
+        background: #111;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        z-index: 2;
+        transition: all .3s;
+    }
+    .video:hover img{
+        transform: scale(1.1);
+    }
+    .video a{
+        position: absolute;
+        top: 155px;
+        left: 255px;
+        z-index: 2;
+        border: 2px solid rgba(255,255,255,.3);
+        padding: 20px 23px;
+        border-radius: 50%;
+    }
+    .video a:hover{
+        background: rgba(255,255,255,.3);
+        border: 2px solid rgba(255,255,255,0);
+    }
+    .video:hover .videoOverlay{
+        opacity: .5;
+    }
+
+/* Construction Section */
+    .construcitonSlide{
+        margin: 0;
+        position: relative;
+        width: 25%;
+        float: left;
+        color: #111111;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center; 
+        height: 338px;   
+    }
+    .construcitonSlide h1{
+        position: relative;
+        bottom: 3px;
+        padding: 30px 0;
+        margin-top: 0;
+        color: #111111;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center;    
+        transition: all .3s;
+    }
+    .constructionOverlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(51, 51, 51, 0.36);
+        transition: all .3s;
+    }
+    .construcitonSlide:hover h1{
+        background: #111;
+        color: #ffffff;
+    }
+    .construcitonSlide:hover .constructionOverlay{
+        opacity: 0;
+    }
+    .constructleftArrow{
+        z-index: 10;
+        position: absolute;
+        left: 0;
+        bottom: 125px;
+        padding: 8px 11px;
+        background: #FFD200;
+        transition: all .3s;
+    }
+    .constructleftArrow a{
+        color: #888;
+        transition: all .3s;
+    }
+    .constructleftArrow:hover{
+        background: #111;
+    }
+    .constructleftArrow:hover a{
+        color: #ffffff;
+    }
+    .constructrightArrow{
+        z-index: 10;
+        position: absolute;
+        left: 0;
+        bottom: 160px;
+        padding: 8px 11px;
+        background: #FFD200;
+        transition: all .3s;
+    }
+    .constructrightArrow a{
+        color: #888;
+        transition: all .3s;
+    }
+    .constructrightArrow:hover{
+        background: #111;
+    }
+    .constructrightArrow:hover a{
+        color: #ffffff;
+    }
+/* Work Section */
+    #work{
+        background: url(../img/workBg.jpg);
+        background-size: cover;
+        height: 610px;
+        /* padding-top: 50px; */
+    }
+    .workOverlay{
+        background: rgba(0,0,0,.7);
+        height: 92%;
+        padding-top: 50px;
+    }
+    #work h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 28px;  
+        font-weight: 700;
+        margin-bottom: 10px;  
+    }
+    #work .line{
+        height: 2px;
+        width: 50px;
+        background: #FFD200;
+        margin-bottom: 30px;
+    }
+    .workNavBar{
+        position: relative;        
+    }
+    .workNavBar>li{
+        background: #2B2B2B;
+        display: inline-block;
+        padding: 15px;
+        border-top: 3px solid #FFD200;
+    } 
+    .workNavBar li h2{
+        color: #646464;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    #work p{
+        color: #d4d4d4;
+        line-height: 20px;
+    }
+    /* Hover Section */
+        #work li:first-child:hover .idare{
+            visibility: visible;
+        }
+        #work li:first-child:hover{
+            background: #2F2F32;  
+        }
+        #work li:first-child:hover h2{
+            color:#cccccc;
+        }
+        #work li:nth-child(2):hover .techizat{
+            visibility: visible;        
+        }
+        #work li:nth-child(2):hover{
+            background: #2F2F32;  
+        }
+        #work li:nth-child(2):hover h2{
+            color:#cccccc;
+        }
+        #work li:nth-child(3):hover .dizayn{
+            visibility: visible;        
+        }
+        #work li:nth-child(3):hover{
+            background: #2F2F32;  
+        }
+        #work li:nth-child(3):hover h2{
+            color:#cccccc;
+        }
+        #work li:nth-child(4):hover .tikinti{
+            visibility: visible;        
+        }
+        #work li:nth-child(4):hover{
+            background: #2F2F32;  
+        }
+        #work li:nth-child(4):hover h2{
+            color:#cccccc;
+        }
+        #work li:nth-child(5):hover .temir{
+            visibility: visible;        
+        }
+        #work li:nth-child(5):hover{
+            background: #2F2F32;  
+        }
+        #work li:nth-child(5):hover h2{
+            color:#cccccc;
+        }
+        #work li:nth-child(6):hover .beton{
+            visibility: visible;        
+        }
+        #work li:nth-child(6):hover{
+            background: #2F2F32;  
+        }
+        #work li:nth-child(6):hover h2{
+            color:#cccccc;
+        }
+        #work li:nth-child(7):hover .pvc{
+            visibility: visible;        
+        }
+        #work li:nth-child(7):hover{
+            background: #2F2F32;  
+        }
+        #work li:nth-child(7):hover h2{
+            color:#cccccc;
+        }
+    /* Idare Section */
+        .idare{
+            position: absolute;
+            width: 1140px;
+            top: 44px;
+            left: 0;
+            padding: 15px;
+            background: #2F2F32;
+            padding-top: 20px;
+            visibility: hidden;
+        }
+        .idare p{
+            color: #d4d4d4;
+            line-height: 20px;
+        }
+        .idareHover{
+            position: relative;
+        }
+        .idareHoverOverlay{
+            width: 100%;
+            height: 99%;
+            background: #111;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            z-index: 2;
+            transition: all .3s;
+        }
+        .idareHover:hover .idareHoverOverlay{
+            opacity: .5;
+        }
+        .idareHoverOverlay a{
+            position: absolute;
+            top: 80px;
+            left: 135px;
+            z-index: 2;
+            border: 2px solid rgba(255,255,255,.3);
+            padding: 20px 22px;
+            border-radius: 50%;
+            font-size: 20px;
+            transition: all .3s;
+        }
+        .idareHoverOverlay a:hover{
+            background: rgba(255,255,255,.3);
+            border: 2px solid rgba(255,255,255,0);
+        }
+    /* Techizat Section */
+        .techizat{
+            position: absolute;
+            width: 1140px;
+            top: 44px;
+            left: 0;
+            padding: 15px;
+            background: #2F2F32;
+            padding-top: 20px;
+            visibility: hidden;
+        }
+        .techizat ul{
+            list-style: disc;
+        }
+        .techizat ul li{
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #d4d4d4;
+        }
+    /* Dizayn Section */
+        .dizayn{
+            position: absolute;
+            width: 1140px;
+            top: 44px;
+            left: 0;
+            padding: 15px;
+            background: #2F2F32;
+            padding-top: 20px;
+            visibility: hidden;
+        }
+        .dizayn ul{
+            list-style: disc;
+        }
+        .dizayn ul li{
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #d4d4d4;
+        }
+    /* Tikinti Section */
+        .tikinti{
+        position: absolute;
+        width: 1140px;
+        top: 44px;
+        left: 0;
+        padding: 15px;
+        background: #2F2F32;
+        padding-top: 20px;
+        visibility: hidden;
+        }
+        .tikinti ul{
+            list-style: disc;
+            padding-bottom: 10px;
+        }
+        .tikinti ul li{
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #d4d4d4;
+        }
+    /* Temir Section */
+        .temir{
+        position: absolute;
+        width: 1140px;
+        top: 44px;
+        left: 0;
+        padding: 15px;
+        background: #2F2F32;
+        padding-top: 20px;
+        visibility: hidden;
+        }
+        .temir ul li{
+            margin-top: 10px;
+            color: #d4d4d4;
+        }
+    /* Beton Section */
+        .beton{
+        position: absolute;
+        width: 1140px;
+        top: 44px;
+        left: 0;
+        padding: 15px;
+        background: #2F2F32;
+        padding-top: 20px;
+        visibility: hidden;
+        }
+        .beton ul{
+            list-style: disc;
+            padding-bottom: 10px;
+        }
+        .beton ul li{
+            margin-top: 10px;
+            margin-left: 15px;
+            text-transform: uppercase;
+            color: #d4d4d4;
+        }
+        .betonContact{
+            margin-top: 20px;
+        }
+    /* PVC Section */
+        .pvc{
+        position: absolute;
+        width: 1140px;
+        top: 44px;
+        left: 0;
+        padding: 15px;
+        background: #2F2F32;
+        padding-top: 20px;
+        visibility: hidden;
+        }
+        .pvc ul{
+            list-style: disc;
+            padding-bottom: 10px;
+        }
+        .pvc ul li{
+            margin-top: 10px;
+            margin-left: 15px;
+            color: #d4d4d4;
+        }
+/* Info Section */
+    #info{
+        background: #FFD200;
+        text-align: center;
+    }
+    #info h1{
+        color: #222222;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+    #info p{
+        color: #333333;
+        padding-bottom: 20px;    
+    }
+/* Footer Section */
+    footer{
+        background: #222222;
+        padding-top: 50px;
+    }
+    footer .logoImgFrame{
+        margin-bottom: 20px;
+    }
+    footer p{
+        padding-right: 30px;
+        color: #cccccc;    
+        line-height: 23px;
+    }
+    footer h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 20px;    
+    }
+    footer .map{
+        width: 360px;
+        height: 215px;
+    }
+    footer .col-4{
+        position: relative;
+    }
+    .spans{
+        display:inline-block;
+    }
+    .spansInfo{
+        display: inline-block;
+        position: absolute;
+        color: #cccccc;
+    }
+    footer a{
+        color: #555555;
+        transition: all .3s;
+    }
+    footer a:hover{
+        color: #393939;
+        text-decoration: underline;
+    }
+    footer .spans li{
+        padding: 14px 0;
+        border-bottom: 1px solid #393939;
+    }
+    footer .spansInfo li{
+        padding: 14px 0;
+        border-bottom: 1px solid #393939;
+    }
+    .spans span{
+        font-weight: bold;
+        color: #FFD200;
+        padding-right: 10px;
+    }
+    footer .socialBar{
+        padding-right: 40px;
+    }
+    footer .socialBar a{
+        color: #ffffff;
+    }
+    footer .container-fluid{
+        background: #242424;
+        padding: 30px 0;
+    }

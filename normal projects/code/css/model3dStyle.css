@@ -1,0 +1,52 @@
+/* Short Info Section */
+    #shortinfo{
+        background: #f0812b;
+        color: #ffffff;
+    }
+    .pdf{
+        color: #ffffff;
+        background: #cfa308;
+    }
+    .schedule p{
+        color: #ffffff;
+    }
+    .shortFrame{
+        bottom: -10px;
+    }
+    .download button{
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+/* Main Content Section */
+    /* Invite Section */
+        .invite{
+            height: 392px;
+        }
+        .invite .col-6:first-of-type{
+            margin: 0;
+            padding: 20px;
+        }
+        .inviteFrame{
+            width: 459px;
+            height: 392px;
+        }
+        .inviteFrame img{
+            height: 100%;
+        }
+    /* Aim Section */
+        .aimFrame{
+            width: 263px;
+        }
+    /* Sertificate Section */
+        .sertificate{
+            margin-top: 200px;
+        }
+        .sertFrame{
+            width: 374px;
+            top: -40px;
+            left: -80px;
+        }
+    /* Programm Section */
+        .programm li{
+            background: #f0812b;
+        }

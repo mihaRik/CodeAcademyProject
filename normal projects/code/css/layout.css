@@ -1,0 +1,492 @@
+/* Fonts */
+    @font-face{
+        font-family: visby-light;
+        src: url(../fonts/VisbyCF-Light-az.ttf)
+    }
+    @font-face{
+        font-family: visby-medium;
+        src: url(../fonts/VisbyCF-Medium-az.ttf)
+    }
+    @font-face{
+        font-family: visby-demibold;
+        src: url(../fonts/VisbyCF-DemiBold-az.ttf)
+    }
+    @font-face{
+        font-family: visby-bold;
+        src: url(../fonts/VisbyCF-Bold-az.ttf)
+    }
+    @font-face{
+        font-family: visby-extrabold;
+        src: url(../fonts/VisbyCF-ExtraBold-az.ttf)
+    }
+body{
+    width: calc(100vw - 17px);
+    font-family: visby-medium;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #222222;
+}
+img{
+    width: 100%;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+[class^="col-"]{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    float: left;
+    margin: 10px;
+}
+.pull-right{
+    float: right;
+}
+.pull-left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+/* Cols */
+    .col-1{
+        width: calc(100%/12*1 - 20px);
+    }
+    .col-2{
+        width: calc(100%/12*2 - 20px);
+    }
+    .col-3{
+        width: calc(100%/12*3 - 20px);
+    }
+    .col-4{
+        width: calc(100%/12*4 - 20px);
+    }
+    .col-5{
+        width: calc(100%/12*5 - 20px);
+    }
+    .col-6{
+        width: calc(100%/12*6 - 20px);
+    }
+    .col-7{
+        width: calc(100%/12*7 - 20px);
+    }
+    .col-8{
+        width: calc(100%/12*8 - 20px);
+    }
+    .col-9{
+        width: calc(100%/12*9 - 20px);
+    }
+    .col-10{
+        width: calc(100%/12*10 - 20px);
+    }
+    .col-11{
+        width: calc(100%/12*11 - 20px);
+    }
+    .col-12{
+        width: calc(100%/12*12 - 20px);
+    }
+/* Header Section */
+    header .top{
+        height: 14px;
+        background: linear-gradient(to right, #00a65a 0%, #0086cd 16%, #873996 37%, #ec3824 62%, #f0812b 82%, #ffc90a 100%);
+    }
+    header .info{
+        padding: 2px 0;
+        color: #333333;
+        background: #F2F2F2;
+        font-size: 12.19px;
+        font-family: visby-medium;
+        letter-spacing: 0.2px;
+    }
+    .logoImgFrame{
+        height: 46px;
+        width: 190px;
+    }
+    nav{
+        font-family: visby-bold;
+        margin-top: 40px;
+    }
+    .navBar{
+        padding-left: 25px;
+        text-align: center;
+    }
+    .navBar li{
+        display: inline-block;
+        padding: 16px 10px;
+        
+    }
+    .navBar li a{
+        letter-spacing: 1.2px;
+        text-transform: capitalize;
+        padding: 10px;
+        width: 100%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    /* Dropdown Section */
+        .dropdown{
+            position: relative;
+        } 
+        .dropdownAcademy{
+            position: absolute;
+            top: 45px;
+            left: 20px;
+            width: 185px;
+            text-align: left;
+            background: #393939;
+            border-radius: 7px;
+            padding: 15px;
+            visibility: hidden;
+            opacity: 0;
+            transition: all .2s;
+            text-transform: capitalize;
+            z-index: 100;
+            box-shadow: 3px 5px 17px 0 rgba(0, 0, 0, 0.14);
+        } 
+
+        .dropdownAcademy li{
+            padding: 15px 0;
+            transition: all .2s ease-in;
+            width: 100%;
+        }
+        .dropdownAcademy li:hover{
+            background: #333333;
+        }
+        .dropdownAcademy a{
+            font-family: visby-light;
+            display: block;
+            padding: 5px!important;
+            color: #c6c6c6;
+        }
+        .dropdown:hover .dropdownAcademy{
+            visibility: visible;
+            opacity: 1;
+        }
+        .dropdownEdu{
+            padding: 15px;
+            border-radius: 7px;
+            background: #393939;
+            position: absolute;
+            top: 45px;
+            left: 20px;
+            visibility: hidden;
+            opacity: 0;
+            transition: all .2s;
+            width: 610px;
+            text-align: left;
+            z-index: 100;
+            box-shadow: 3px 5px 17px 0 rgba(0, 0, 0, 0.14);
+        }
+        .dropdownEdu li{
+            width: 97%;
+            transition: all .2s ease-in;
+        }
+        .dropdownEdu a{
+            font-family: visby-light;            
+            text-transform: none!important;
+            display: block;
+            padding: 5px!important;
+            color: #c6c6c6;
+        }
+        .header a{
+            font-family: visby-bold;
+            color: #ffffff!important;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            padding-left: 15px!important;
+        }
+        .lesson{
+            display: inline-block;
+            width: 49%;
+        }
+        .edumodel{
+            display: inline-block;
+            width: 49%;
+        }
+        .dropdownEdu li:hover{
+            background: #333333;
+        }
+        .dropdown:hover .dropdownEdu{
+            visibility: visible;
+            opacity: 1;
+        }
+    /* Search Section */
+        .search{
+            height: 49px;
+            padding: 5px;
+            box-sizing: border-box;
+            text-align: right;
+        }
+        .search input{
+            font-family: visby-light;
+            position: absolute;
+            right: 22px;
+            top: 0;
+            width: 0;
+            transition: all .4s ease-in;
+            border: none;
+            background: #f2f2f2;
+            padding: 12px 20px;
+            outline: none;
+            font-size: 17px;
+            z-index: 1;
+            visibility: hidden;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+        .search a{
+            position: relative;
+            top: 8px;
+            right: 10px;
+            font-size: 20px;
+            background: #f2f2f2;
+            padding: 10px 22px;
+            border-radius: 50%;
+            transition: all .4s ease-in;
+        }
+        .search i{
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            z-index: 3;
+        }
+        .search a:hover input{
+            width: 170px;
+            right: 22px;
+            visibility: visible;
+        }
+        .search a:hover{
+            transition: all .4s;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .search input:focus{
+            width: 170px;
+            right: 22px;
+            visibility: visible;
+        }
+    /* Muraciet Section */
+        .muraciet{
+            text-align: right;
+        }
+        .muraciet a{
+            font-family: visby-bold;
+            text-align: center;
+            width: 130px;
+            display: block;
+            padding: 12px;
+            margin: 3px 0;
+            margin-left: auto;
+            background: #0086cd;
+            border-radius: 8px;
+            color: #ffffff!important;
+            font-weight: bold;
+            font-size: 17px;
+            transition: all .2s ease-in;
+        }
+        .muraciet a:hover{
+            background: #0175b3;
+        }
+/* Questions Section */
+    #questions{
+        background: url(../img/questionsBg.png) center;
+        background-size: cover;
+        text-align: center;
+        margin-top: 70px;
+        padding-bottom: 50px;
+    }
+    span{
+        color: #ec3824;
+    }
+    .header h1{
+        font-family: visby-extrabold;
+        font-size: 28px;
+        color: #ffffff;
+        padding: 70px 0;
+        font-weight: bold;
+    }
+    .input{
+        background: #ffffff;
+        padding: 20px;
+        text-align: left;
+        border-radius: 8px;
+        padding-bottom: 50px;
+    }
+    .input .col-6{
+        position: relative;        
+    }
+
+    .input input{
+        padding: 10px 0;
+        margin-bottom: 30px;
+        width: 90%;
+        font-size: 19px;
+        font-family: visby-light;
+        border: none;
+        border-bottom: 3px solid #dddddd;
+        transition: all .2s ease-in;
+        outline: none;
+    }
+    .underline{
+        height: 3px;
+        width: 0px;
+        transition: all .2s ease-in;
+        background: #ec3824;
+        position: absolute;
+        bottom: 0;
+    }
+    .input input:focus .underline{
+        width: 100px;
+        z-index: 10;
+    }
+    .input input:hover{
+        padding-left: 10px;
+        background: #f2f2f2;
+        width: calc(90% - 10px);
+    }
+    .input input:focus{
+        padding-left: 10px;
+        background: #f2f2f2;
+        width: calc(90% - 10px);
+        border-bottom: 3px solid #ec3824;        
+    }
+    .mobile input{
+        padding-left: 55px;
+        width: 68%;
+        position: relative;
+        top: -10px;
+        left: 0px;
+    }
+    .mobile input:hover{
+        padding-left: 55px;
+        background: transparent;
+        width: 68%;     
+    }
+    .mobile input:focus{
+        padding-left: 55px;
+        background: transparent;
+        width: 68%;          
+    }
+    .mobile select{
+        font-family: visby-light;
+        border: none;
+        outline: none;
+        color: #777777;
+        font-size: 19px;
+        position: relative;
+        top: 24px;
+        background: transparent;
+        z-index: 10;
+    }
+    .sent{
+        text-align: center;
+        padding: 11px 0;
+        padding-right: 24px
+    }
+    .sent a{
+        display: block;
+        padding: 15px 10px;
+        background: #0086cd;
+        transition: all .2s ease-in;
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: visby-medium;
+        font-weight: bold;        
+        text-transform: uppercase;
+        align-items: left;
+    }
+    .sent a:hover{
+        background: #0175b3;
+    }
+/* Footer Section */
+    footer{
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    .footNav h3{
+        font-family: visby-extrabold;
+        font-size: 19px;
+        color: #333333;
+        text-transform: uppercase;
+        margin-bottom: 40px;    
+    }
+    .footNav li{
+        margin-bottom: 30px;
+    }
+    .footNav a{
+        padding-bottom: 3px;
+        color: #6f6f6f;
+        font-size: 16px;
+        border-bottom: 1px solid transparent;
+        transition: all .2s ease-in;
+        line-height: 20px;
+    }
+    .footNav a:hover{
+        border-bottom: 1px solid #6f6f6f; 
+    }
+    .footContact h3{
+        font-family: visby-extrabold;
+        font-size: 19px;
+        color: #333333;
+        text-transform: uppercase;
+        margin-bottom: 40px;    
+    }
+    .footContact li{
+        margin-bottom: 30px;
+    }
+    .footContact address{
+        font-family: visby-medium;
+        font-size: 15px;
+        color: #6f6f6f;
+        line-height: 25px;
+    }
+    .phone{
+        color: #ec3824;
+        padding: 8px 12px;
+        border: 1px solid #ec3824;
+        border-radius: 12px;
+        font-size: 15px;
+        transition: all .2s ease-in;
+    }
+    .phone:hover{
+        background: #ec3824;
+        color: #ffffff;
+    }
+    .footContact p{
+        font-family: visby-medium;
+        font-size: 15px;
+        color: #6f6f6f;
+        line-height: 25px;
+    }
+    .footContact a{
+        font-family: visby-medium;
+        font-size: 15px;
+        color: #6f6f6f;
+        line-height: 25px;
+    }
+    .social i{
+        font-size: 22px;
+        transition: all .2s ease-in;
+    }
+    .social li{
+        display: inline-block;
+        margin: 0 16px;
+    }
+    .social a:hover .fa-facebook-f{
+        color: #3b5998;
+    }
+    .social a:hover .fa-twitter{
+        color: #0084b4;
+    }
+    .social a:hover .fa-instagram{
+        color: #9b56c3;
+    }
+    .social a:hover .fa-linkedin-in{
+        color: #0077b5;
+    }

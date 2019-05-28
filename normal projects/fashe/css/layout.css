@@ -1,0 +1,75 @@
+body{
+    width: calc(100vw - 17px);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+/* @font-face{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+} */
+.widewrapper{
+    position: relative;
+    width: 1500px;
+    height: 50px;
+    /* background: magenta; */
+    margin: 0 auto;
+}
+.wrapper{
+    position: relative;
+    width: 1200px;
+    height: 50px;
+    /* background: yellow; */
+    margin: 0 auto;
+}
+[class^="col-"]{
+    margin: 0 10px 10px 10px;
+    height: 50px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.pull-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.col-1{
+    width: calc(100%/12*1 - 20px);
+}
+.col-2{
+    width: calc(100%/12*2 - 20px);
+}
+.col-3{
+    width: calc(100%/12*3 - 20px);
+}
+.col-4{
+    width: calc(100%/12*4 - 20px);
+}
+.col-5{
+    width: calc(100%/12*5 - 20px);
+}
+.col-6{
+    width: calc(100%/12*6 - 20px);
+}
+.col-7{
+    width: calc(100%/12*7 - 20px);
+}
+.col-8{
+    width: calc(100%/12*8 - 20px);
+}
+.col-9{
+    width: calc(100%/12*9 - 20px);
+}
+.col-10{
+    width: calc(100%/12*10 - 20px);
+}
+.col-11{
+    width: calc(100%/12*11 - 20px);
+}
+.col-12{
+    width: calc(100%/12*12 - 20px);
+}

@@ -1,0 +1,247 @@
+/* Short Info Section */
+    #shortinfo{
+        margin-top: 50px;
+        background: #ffc90a;
+    }
+    .shortheader{
+        position: relative;
+        height: 140px;
+    }
+    .shortheader h1{
+        font-family: visby-extrabold;
+        font-size: 28px;
+        color: #ffffff;
+        position: relative;
+        z-index: 5;
+        top: 50px;
+    }
+    .shortFrame{
+        width: 159px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+    }
+    .schedule{
+        text-align: center;
+    }
+    .schedule li{
+        text-align: left;
+        display: inline-block;
+        margin: 48px 40px;
+    }
+    .schedule p{
+        font-size: 13px;
+        margin-bottom: 15px;
+        color: #222222;
+    }
+    .schedule h4{
+        text-transform: uppercase;
+        font-family: visby-extrabold;
+    }
+    .pdf{
+        text-transform: uppercase;
+        color: #333333;
+        font-size: 10px;
+        background: #cfa308;
+        font-family: visby-bold;
+        border-radius: 3px;   
+        padding: 1px 2px;
+    }
+    .download button{
+        background: transparent;
+        border: 1px solid #404041;
+        border-radius: 7px;
+        margin: 49px 0;
+        color: #333333;
+        font-size: 15px;
+        font-family: visby-bold;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 15px;
+        margin-left: 22px!important;
+
+    }
+/* Side Nav Section */
+    .sideNav{
+        position: sticky;
+        top: 10px;
+    }
+    .sideNav a{
+        text-transform: capitalize;
+        font-size: 18px;
+        color: #333333;
+    }
+    .sideNav .muraciet{
+        position: relative;
+        left: -55px;
+    }
+    .muraciet a{
+        border: none!important;
+
+    }
+/* Main Content Section */
+    #content{
+        margin-top: 50px;
+
+    }
+    /* Invite Section */
+        .invite{
+            background: #393939;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .invite .col-6:first-of-type{
+            margin: 0 20px;
+            padding: 20px;
+        }
+        .invite .col-6{
+            margin: 0;
+        }
+        .invite{
+            margin-top: 150px;
+            height: 322px;
+        }
+        .invite .col-6 img{
+            position: relative;
+        }
+        .invite .col-6 h2{
+            color: #ffffff;
+            font-size: 28px;
+            font-family: visby-extrabold;
+            margin-bottom: 50px;
+            margin-top: 30px;
+            margin-left: 40px;
+        }
+        .invite .col-6 p{
+            font-family: visby-light;
+            font-size: 15px;
+            color: #ffffff;
+            margin-left: 40px;
+        }
+    /* Aim */
+        .aim{
+            margin-top: 50px;
+        }
+        .aim .col-7 h2{
+            color: #333333;
+            font-size: 28px;
+            font-family: visby-extrabold;
+            margin-bottom: 50px;
+            margin-top: 30px;
+        }
+        .aim .col-7 p{
+            width: 70%;
+            font-family: visby-light;
+            font-size: 15px;
+            color: #333333;
+        }
+        .aim img{
+            position: relative;
+            left: -80px;
+            top: 80px;
+        }
+    /* Speciality Section */
+        .spec{
+            margin-top: 150px;
+        }
+        .iconFrame{
+            width: 23px;
+            float: left;
+        }
+        .spec p{
+            color: #333333;
+            font-size: 15px;
+            font-family: visby-demibold;
+        }
+        .spec h2{
+            color: #333333;
+            font-size: 28px;
+            font-family: visby-extrabold;
+            margin-bottom: 20px;
+        }
+        .spec li{
+            margin: 30px 0;
+        }
+    /* Sertificate Section */
+        .sertificate{
+            margin-top: 100px;
+        }
+        .sertificate h2{
+            color: #333333;
+            font-size: 28px;
+            font-family: visby-extrabold;
+            margin-bottom: 50px;
+        }
+        .sertificate p{
+            margin-bottom: 20px;
+            color: #333333;
+            font-size: 15px;
+            font-family: visby-light;            
+        }
+        .sertFrame{
+            width: 169px;
+            position: relative;
+            top: -25px;
+            left: -60px;        
+        }
+    /* Programm Section */
+        .programm{
+            margin-top: 100px;
+        }
+        .programm h2{
+            color: #333333;
+            font-size: 28px;
+            font-family: visby-extrabold;
+            margin-bottom: 30px;
+        }
+        .programm li{
+            width: 100%;
+            background: #ffc90a;
+            color: #ffffff;
+            margin-bottom: 10px;
+            font-family: visby-demibold;
+            font-size: 14px;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+    /* Work Section */
+        .work{
+            margin-top: 100px;
+        }
+        .work h2{
+            color: #333333;
+            font-size: 28px;
+            font-family: visby-extrabold;
+            margin-bottom: 30px;
+        }
+        .work li{
+            width: 100%;
+            background: #f3f3f3;
+            color: #6f6f6f;
+            margin-bottom: 10px;
+            font-family: visby-demibold;
+            font-size: 15px;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+    /* Vacancy Section */
+        .vacancy{
+            margin-top: 100px;
+        }
+        .vacancy h2{
+            color: #333333;
+            font-size: 28px;
+            font-family: visby-extrabold;
+            margin-bottom: 30px;
+        }
+        .vacancy li{
+            width: 100%;
+            background: #f3f3f3;
+            color: #6f6f6f;
+            margin-bottom: 10px;
+            font-family: visby-demibold;
+            font-size: 15px;
+            box-sizing: border-box;
+            padding: 15px;
+        }

@@ -1,0 +1,297 @@
+/*  Topbar Section */
+    .bgTopBar{
+        background: url(../img/projectBg.jpg) center 0;
+        background-size: cover;
+    }   
+    #topBar{
+        background: rgba(0,0,0,.2);
+    }
+    .adress li{
+        display: inline-block;
+        margin: 4px 0;
+        margin-right: 30px;
+    }
+    .adress li i{
+        padding-left: 10px;
+        color: #FFD200;
+        transform: rotateY(-180deg);
+    }
+    .lang select{
+        width: 100px;
+        background: transparent;
+        color: #ffffff;
+        border: 1px solid rgba(255,255,255,.3);
+        padding: 1px;
+        transition: .3s;
+    }
+    .lang select:hover{
+        background: rgba(255,255,255,.1)
+    }
+    .lang select option{
+        color: #222327;
+        background: rgba(0,0,0,.2);
+        /* background: transparent; */
+    }
+    .socialBar{
+        text-align: right;
+    }
+    .socialBar li{
+        display: inline-block;
+        margin: 3px 10px;
+    }
+    .socialBar li a:hover{
+        color: #FFD200;
+    }
+/* Header Section */
+    header{
+        background: rgba(50,50,50,.95);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .logoImgFrame{
+        width: 144px;
+    }
+    header .col-10{
+        text-align: right;
+    }
+    header li{
+        padding: 22px 0;
+        display: inline-block;
+    }
+    header li a{
+        padding: 0 20px;
+        transition: all .3s;
+    }
+    header li a:hover{
+        color: #FFD200;
+    }
+    .subMenu{
+        position: relative;
+    }
+    .subMenu:hover .subMenuItems{
+        visibility: visible;
+        opacity: 1;
+        
+    }
+    .subMenuItems{
+        text-align: left;
+        width: 210px;
+        position: absolute;
+        top: 58px;
+        left: 15px;
+        visibility: hidden;
+        transition: all .3s;
+        opacity: 0;
+    }
+    .subMenuItems li{
+        background: #222327;
+        display: block;
+        padding: 15px;
+        border-bottom: solid 1px #333;
+        transition: all .3s;
+    }
+    .subMenuItems li a{
+        padding: 0;
+        color: #ccc;
+    }
+    .subMenuItems li:hover{
+        background: #FFD200;
+    }
+    .subMenuItems li:hover a{
+    color: #222327;
+    }
+/* Slider Section */
+    #slider{
+        height: 200px;
+        text-align: center;
+    }
+    #slider h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 30px;
+        color: #eceff3;       
+    }
+    #slider .line{
+        width: 100%;
+        height: 1px;
+        background: rgba(255,255,255,.1);
+        position: relative;
+        margin: 30px 0; 
+    }
+    .lineYellow{
+        position: absolute;
+        top: 0;
+        left: 540px;
+        background: #FFD200;
+        height: 2px;
+        width: 100px;
+    }
+    #slider p{
+        font-size: 12px;
+    }
+    #slider p i{
+        padding: 0 10px;
+    }
+    #slider a{
+        color: #FFD200;
+        transition: all .3s;
+    }
+    #slider a:hover{
+        color: #ffffff;
+    }
+/* Content Section */
+    #content{
+        padding-bottom: 50px;
+    }
+    .mainContent a{
+        color: #555555;
+        font-size: 13px;
+        font-weight: 700; 
+        background: #FFD200;
+        padding: 10px 30px;   
+        border: none;
+    }
+    .mainContent .col-12{
+        background: #555555;
+        padding: 11px 0;
+        padding-bottom: 10px;
+    }
+    .map{
+        height: 380px;
+    }
+    .list li span{
+        color: #777777;
+        font-weight: 700;    
+    }
+    .list li p{
+        color: #777777;
+        margin-top: 5px;
+    }
+    .list li{
+        padding: 15px 0;
+        border-bottom: 1px solid #222222;
+    }
+    .list a{
+        color: #888888;
+        font-weight: normal;
+        background: transparent;
+        padding: 0;
+        transition: all .3s;
+    }
+    .list a:hover{
+        color: #555555;
+        text-decoration: underline;
+    }
+    /* Sidebar Section */
+        .sideBar{
+            background: rgb(245, 245, 245);
+            padding: 30px;
+        }
+        .sideBar li{
+            margin: 20px 0;
+        }
+        .sideBar h1{
+            color: #222222;
+            font-size: 17px;
+            font-weight: 400;        
+        }
+        .sideBar .line{
+            height: 2px;
+            width: 45px;
+            background: #FFD200;
+        }
+        .sideBar input{
+            color: #333333; 
+            padding: 10px;
+            border: 1px solid #dddddd;
+            border-radius: 2px;
+            width: 92%;
+        }
+        .sideBar textarea{
+            font-family: 'Roboto', sans-serif;    
+            padding: 10px;
+            color: #333333; 
+            border: 1px solid #dddddd;
+            border-radius: 2px;
+            width: 92%;
+            min-height: 160px;
+            resize: vertical;
+        }
+        .sideBar a{
+            text-transform: uppercase;
+            color: #111111;
+            padding: 3px 35px;
+            border: 1px solid rgba(1,1,1,.2);
+            transition: all .3s;
+        }
+        .sideBar a:hover{
+            background: #111111;
+            color: #ffffff;
+        }
+/* Footer Section */
+    footer{
+        background: #222222;
+        padding-top: 50px;
+    }
+    footer .logoImgFrame{
+        margin-bottom: 20px;
+    }
+    footer p{
+        padding-right: 30px;
+        color: #cccccc;    
+        line-height: 23px;
+    }
+    footer h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 20px;    
+    }
+    footer .map{
+        width: 360px;
+        height: 215px;
+    }
+    footer .col-4{
+        position: relative;
+    }
+    .spans{
+        display:inline-block;
+    }
+    .spansInfo{
+        display: inline-block;
+        position: absolute;
+        color: #cccccc;
+    }
+    footer a{
+        color: #555555;
+        transition: all .3s;
+    }
+    footer a:hover{
+        color: #393939;
+        text-decoration: underline;
+    }
+    footer .spans li{
+        padding: 14px 0;
+        border-bottom: 1px solid #393939;
+    }
+    footer .spansInfo li{
+        padding: 14px 0;
+        border-bottom: 1px solid #393939;
+    }
+    .spans span{
+        font-weight: bold;
+        color: #FFD200;
+        padding-right: 10px;
+    }
+    footer .socialBar{
+        padding-right: 40px;
+    }
+    footer .socialBar a{
+        color: #ffffff;
+    }
+    footer .container-fluid{
+        background: #242424;
+        padding: 30px 0;
+    }

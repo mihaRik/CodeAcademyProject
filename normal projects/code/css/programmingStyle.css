@@ -1,0 +1,91 @@
+/* Short Info Section */
+    #shortinfo{
+        background: #0086cc;
+        color: #ffffff;
+    }
+    .pdf{
+        color: #ffffff;
+        background: #006da6;
+    }
+    .schedule p{
+        color: #ffffff;
+    }
+    .shortFrame{
+        bottom: -13px;
+        right: 25px;
+    }
+    .download button{
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+/* Main Content Section */
+    /* Invite Section */
+        .invite{
+            height: 353px;
+        }
+        .invite .col-6:first-of-type{
+            margin: 0;
+            padding: 20px;
+        }
+        .inviteFrame{
+            width: 459px;
+        }
+    /* Aim Section */
+        .aimFrame{
+            width: 311px;
+        }
+        .aim img{
+            position: relative;
+            left: -110px;
+            top: 110px;
+        }
+    /* Sertificate Section */
+        .sertificate{
+            margin-top: 200px;
+        }
+        .sertFrame{
+            width: 374px;
+            top: -35px;
+            left: -20px;   
+        }
+    /* Programm Section */
+        .programm ul{
+            float: left;
+            line-height: 50px;
+        }
+        .programm ul li{
+            margin: 0;
+        }
+        [class^="programHeader"]{
+            width: 45%;
+        }
+        .programInfo{
+            width: 55%;
+        }
+        .programHeader li{
+            background: #0086cd;
+            padding: 90px 20px;
+        }
+        .programHeader2 li{
+            background: #0086cd;
+            padding: 65px 20px;
+        }
+        .programHeader3 li{
+            background: #0086cd;
+            padding: 15px 20px;
+        }
+        .programInfo{
+            background: #f3f3f3;
+        }
+        .programInfo li{
+           background: #f3f3f3;
+           color: #6f6f6f;
+        }
+    /* Work Section */
+        .blue{
+            background: #0086cd!important;
+            color: #ffffff!important;
+        }
+        .work i{
+            cursor: pointer;
+        }

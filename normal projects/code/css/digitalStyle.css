@@ -1,0 +1,35 @@
+/* Short Info Section */
+    #shortinfo{
+        background: #873996;
+        color: #ffffff;
+    }
+    .pdf{
+        color: #ffffff;
+        background: #6e2e7a;
+    }
+    .schedule p{
+        color: #ffffff;
+    }
+    .shortFrame{
+        bottom: 20px;
+    }
+    .download button{
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+/* Main Content Section */
+    /* Aim Section */
+        .aimFrame{
+            width: 263px;
+        }
+    /* Sertificate Section */
+        .sertificate{
+            margin-top: 200px;
+        }
+        .sertFrame{
+            width: 374px;
+        }
+    /* Programm Section */
+        .programm li{
+            background: #873996;
+        }
